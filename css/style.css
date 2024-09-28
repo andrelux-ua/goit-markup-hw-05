@@ -330,7 +330,7 @@ img {
 
 .social-network:hover,
 .social-network:focus {
-    background-color: #404bbf;;
+    background-color: #404bbf;
 }
 
 .social-network-icon{
@@ -485,7 +485,7 @@ img {
 .footer-subscribe-input {
     width: 264px;
     height: 40px;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     font-size: 12px;
     line-height: 2;
@@ -495,6 +495,7 @@ img {
     padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
 }
 
 .footer-subscribe-input::placeholder {
@@ -505,8 +506,7 @@ img {
 }
 
 .footer-subscribe-input:focus {
-    outline: none;
-    border-color: #31d0aa;
+    border-color: #ffffff;
 }
 
 .footer-signature-button {
@@ -533,8 +533,9 @@ img {
     fill: #f4f4fd;
 }
 
+.footer-signature-button:hover,
 .footer-signature-button:focus {
-    background-color: #31d0aa;
+    background-color: #404bbf;
 }
 
 /* === */
